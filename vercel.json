@@ -1,0 +1,15 @@
+{
+    "functions": {
+        "api/*.php": { "runtime": "vercel-php@0.6.0" },
+        "*.php": { "runtime": "vercel-php@0.6.0" }
+    },
+    "routes": [
+        { "src": "/(.*)",  "dest": "/$1" }
+    ],
+    "env": {
+        "DB_HOST": "ss",
+        "DB_USER": "ss",
+        "DB_PASS": "ss",
+        "DB_NAME": "ss"
+    }
+}
